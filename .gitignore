@@ -1,2 +1,11 @@
+#Node modules and logs
 node_modules
-.env
+npm-debug.log
+
+#local folder of files, images and work materials
+assets
+
+# Local development
+*.env
+*.dev
+.DS_Store
