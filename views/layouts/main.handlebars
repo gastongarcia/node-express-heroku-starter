@@ -4,19 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>{{pageTitle}} - Node, Express and Handlebars running on Heroku</title>
+    <title>{{pageTitle}} - Consultorías y Creatividad Digital</title>
 
     <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Domine:700|Open+Sans:400,400i,700,700i" rel="stylesheet">
     <link rel="stylesheet" href="/css/styles.css">
 </head>
 <body>
 
-    <div class="container">
-        {{> _navbar }}
-    </div>
 
     <div class="container">
-        {{{ body }}}
+        <div class="row">
+            <div class="col-md-6 mx-auto mt-5 mb-4">
+                {{{ body }}}
+            </div>
+        </div>
     </div>
 
     

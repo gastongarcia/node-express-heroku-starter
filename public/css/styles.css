@@ -1,0 +1,16 @@
+
+
+body{
+    border-top:1em solid #cfd8dc;
+    border-right:0.5em solid #cfd8dc;
+    border-left:0.5em solid #cfd8dc;
+    border-bottom:0.6em solid #cfd8dc;
+    font-family: 'Open Sans', sans-serif;
+    font-size:1.1em;
+    color: #37474f;
+}
+h1,h2,h3,h4,h5{
+    font-family: 'Domine', serif;
+    font-weight: 700;
+    color:#37474f;
+}

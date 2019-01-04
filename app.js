@@ -21,7 +21,7 @@ app.set('view engine', 'handlebars');
 
 
 app.get('/', (req,res) => {
-    const pageTitle = "Home";
+    const pageTitle = "Gastón García";
     res.render("index", {
         pageTitle: pageTitle
     })
